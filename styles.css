@@ -1,0 +1,9 @@
+:root {
+    --white: #fcfaf1;          /* Snowy Mountain White */
+    --black: #2c231c;          /* Autumn Shadows Black */
+    --autumn: #ac6718;         /* Autumn Copper Grass */
+    --autumn-light: #cfa859;   /* Autumn Copper Grass in Light */
+    --sky-blue: #8eb5c4;       /* Sky Blue */
+    --sky-blue-light: #d2e5eb; /* Sky Blue Light */
+    --slate-blue: #4e5659;     /* Mountain Slate Blue */
+}
