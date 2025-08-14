@@ -7,3 +7,12 @@
     --sky-blue-light: #d2e5eb; /* Sky Blue Light */
     --slate-blue: #4e5659;     /* Mountain Slate Blue */
 }
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("./assets/fonts/Norse-Bold.woff") format("woff");
+}
+
+.logo-header {
+    font-family: "Norse-Bold", fantasy;
+}
