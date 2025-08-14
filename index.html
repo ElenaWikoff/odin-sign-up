@@ -1,14 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project: Sign-up Form</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js"></script> 
+    <script src="scripts.js"></script>
 </head>
-<body>
 
+<body>
+    <main>
+        <!-- Sign Up Banner -->
+        <section class="sign-up-banner">
+            <!-- Left/Top Container -->
+            <div class="picture-container">
+                <!-- Header Overlay with Logo -->
+                <hgroup class="header-overlay">
+                    <img class="logo" src="./assets/images/odin-logo-lined.png">
+                    <h1>Odin</h1>
+                </hgroup>
+                <!-- Cover Image -->
+                <figure>
+                    <img src="./assets/images/cover-image.jpg"
+                        alt="An autumn valley, snowy mountains to the left and background, a blue sky above.">
+                    <figcaption class="attribution">Photo by <a href="https://unsplash.com/@nate_dumlao"
+                            target="_blank">Nathan Dumlao</a>on <a
+                            href="https://unsplash.com/photos/gray-concrete-mountain-during-daytime-Wm4vaMmHwS0">Unplash</a>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- Right/Bottom Container -->
+            <div class="main-container">
+                <!-- Text -->
+                <div class="text-container">
+                    <p>This is not a real online service! You know you need something like this in your life to help you
+                        realize your deepest dreams. <br>Sign up now to get started</p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+                <!-- Sign Up Form -->
+                <div class="form-container">
+                    <form>
+                        <h2>Let's do this!</h2>
+                        <div class="form-grid">
+                            <!-- First Name -->
+                            <div class="input-group">
+                                <label for="first_name">First Name</label>
+                                <input type="text" id="first_name" name="first_name">
+                            </div>
+                            <!-- Last Name -->
+                            <div class="input-group">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" id="last_name" name="last_name">
+                            </div>
+                            <!-- Email -->
+                            <div class="input-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <!-- Phone Number -->
+                            <div class="input-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <!-- Password -->
+                            <div class="input-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password">
+                            </div>
+                            <!-- Confirm Password -->
+                            <div class="input-group">
+                                <label for="confirm_password">Confirm Password</label>
+                                <input type="password" id="confirm_password" name="confirm_password">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- Call to Action -->
+                <div class="cta-container">
+                    <button class="cta" onClick="validate()">Create Account</button>
+                    <p class="login-link">Already have an account? <a href="#">Log in</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
