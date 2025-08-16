@@ -30,16 +30,6 @@ This project is intended to give you a chance to flex some of the new items youâ
 6.  Do not worry about making your project look nice on mobile. Responsive design isnâ€™t covered until later in the curriculum.
 7.  Validating that the password fields match each other requires JavaScript. Using JavaScript to validate forms is covered in a future lesson. For now, just validate each field separately.
 
-[Improve on GitHub Github logo icon Improve on GitHub](https://github.com/TheOdinProject/curriculum/edit/main/intermediate_html_css/forms/project_sign_up_form.md) [Report an issueReport icon Report an issue](https://github.com/TheOdinProject/curriculum/issues/new?labels=Status%3A+Needs+Triage&lesson-link=https%3A%2F%2Fwww.theodinproject.com%2Flessons%2Fnode-path-intermediate-html-and-css-sign-up-form&template=suggestion.yaml&title=Sign-up+Form%3A+%3CShort+description+of+your+suggestion%3E) [See lesson changelog](https://github.com/TheOdinProject/curriculum/commits/main/intermediate_html_css/forms/project_sign_up_form.md)
+#### Design File
 
-### Your solution
-
-[View community solutions](/lessons/node-path-intermediate-html-and-css-sign-up-form/project_submissions)
-
-[Submit your solution Submit your solution](/lessons/node-path-intermediate-html-and-css-sign-up-form/project_submissions/new)
-
-[View courseGo to course page View Course](/paths/full-stack-javascript/courses/intermediate-html-and-css)
-
-Mark Complete
-
-[Next lessonGo to next lesson Next Lesson](/lessons/node-path-intermediate-html-and-css-introduction-to-grid)
+![Design](https://cdn.statically.io/gh/TheOdinProject/curriculum/afdbabfab03fbc34783c6b6f3920aba4a4d3b935/intermediate_html_css/forms/project_sign_up_form/imgs/sign-up-form.png)
