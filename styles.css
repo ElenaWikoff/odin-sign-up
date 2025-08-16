@@ -6,11 +6,61 @@
     --sky-blue: #8eb5c4;       /* Sky Blue */
     --sky-blue-light: #d2e5eb; /* Sky Blue Light */
     --slate-blue: #4e5659;     /* Mountain Slate Blue */
+    --error: #ff0033;          /* Error Red */
+    --valid: #53ae3e;          /* Valid Green */
+    --invalid: var(--error);     /* Invalid Red */
 }
+
+/* Fonts */
 
 @font-face {
     font-family: "Norse-Bold";
     src: url("./assets/fonts/Norse-Bold.woff") format("woff");
+}
+
+/* Sign-up Banner Structure */
+
+.sign-up-banner {
+    display: grid;
+    grid-template-columns: 300px auto;
+    justify-content: center;
+    grid-auto-rows: 1fr;
+    width: 100%;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.picture-container {
+
+}
+
+.main-container {
+    width: 100%;
+}
+
+/* Picture Container */
+
+.picture-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.picture-container .header-overlay {
+    position: absolute;
+}
+
+.picture-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+figure.picture-container figcaption {
+    position: absolute;
 }
 
 .logo-header {
