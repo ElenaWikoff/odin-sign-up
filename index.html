@@ -39,45 +39,45 @@
                 </div>
                 <!-- Sign Up Form -->
                 <div class="form-container">
-                    <form>
+                    <form id="login-form">
                         <h2>Let's do this!</h2>
                         <div class="form-grid">
                             <!-- First Name -->
                             <div class="input-group">
                                 <label for="first_name">First Name</label>
-                                <input type="text" id="first_name" name="first_name">
+                                <input type="text" id="first_name" name="first_name" placeholder="Jane" required>
                             </div>
                             <!-- Last Name -->
                             <div class="input-group">
                                 <label for="last_name">Last Name</label>
-                                <input type="text" id="last_name" name="last_name">
+                                <input type="text" id="last_name" name="last_name" placeholder="Doe" required>
                             </div>
                             <!-- Email -->
                             <div class="input-group">
                                 <label for="email">Email</label>
-                                <input type="email" id="email" name="email">
+                                <input type="email" id="email" name="email" placeholder="janedoe@example.com" required>
                             </div>
                             <!-- Phone Number -->
                             <div class="input-group">
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone">
+                                <input type="tel" id="phone" name="phone" placeholder="800-555-5555" pattern="(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}" required>
                             </div>
                             <!-- Password -->
                             <div class="input-group">
                                 <label for="password">Password</label>
-                                <input type="password" id="password" name="password">
+                                <input type="password" id="password" name="password" minlength="8" maxlength="30" pattern="(?=.*[!@#$%^&*()])(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}" required>
                             </div>
                             <!-- Confirm Password -->
                             <div class="input-group">
                                 <label for="confirm_password">Confirm Password</label>
-                                <input type="password" id="confirm_password" name="confirm_password">
+                                <input type="password" id="confirm_password" name="confirm_password" minlength="8" maxlength="30" pattern="(?=.*[!@#$%^&*()])(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}" required>
                             </div>
                         </div>
                     </form>
                 </div>
                 <!-- Call to Action -->
                 <div class="cta-container">
-                    <button class="cta" onClick="validate()">Create Account</button>
+                    <button class="cta" type="submit" form="login-form">Create Account</button>
                     <p class="login-link">Already have an account? <a href="#">Log in</a></p>
                 </div>
             </div>

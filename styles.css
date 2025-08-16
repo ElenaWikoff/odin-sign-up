@@ -187,6 +187,13 @@ figure.picture-container figcaption {
     border-color: var(--valid);
 }
 
+.form-grid input:not([type="password"]):focus:invalid,
+.form-grid input:not([type="password"]):focus-visible:invalid,
+.form-grid input:not([type="password"]):active:invalid {
+    background-color: rgba(207, 168, 89, 0.1);
+    border-color: var(--autumn-light);
+}
+
 .form-grid input[type="password"]:invalid,
 .form-grid input[type="password"]:focus:invalid,
 .form-grid input[type="password"]:focus-visible:invalid,
