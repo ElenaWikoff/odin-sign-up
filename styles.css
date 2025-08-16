@@ -183,6 +183,7 @@ figure.picture-container figcaption {
 .form-grid input:focus:valid,
 .form-grid input:focus-visible:valid,
 .form-grid input:active:valid {
+    background-color: rgba(83, 174, 62, 0.1);
     border-color: var(--valid);
 }
 
@@ -190,6 +191,7 @@ figure.picture-container figcaption {
 .form-grid input[type="password"]:focus:invalid,
 .form-grid input[type="password"]:focus-visible:invalid,
 .form-grid input[type="password"]:active:invalid {
+    background-color: rgba(190, 0, 0, 0.1);
     border-color: var(--invalid);
 }
 
