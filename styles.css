@@ -9,6 +9,7 @@
     --error: #ff0033;          /* Error Red */
     --valid: #53ae3e;          /* Valid Green */
     --invalid: var(--error);     /* Invalid Red */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Fonts */
@@ -22,7 +23,7 @@
 
 .sign-up-banner {
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: min(670px, 100%) auto;
     justify-content: center;
     grid-auto-rows: 1fr;
     width: 100%;
@@ -30,12 +31,9 @@
     margin: 0 auto;
 }
 
-.picture-container {
-
-}
-
 .main-container {
     width: 100%;
+    height: 700px;
 }
 
 /* Picture Container */
@@ -51,6 +49,31 @@
 
 .picture-container .header-overlay {
     position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 200px;
+    padding: 20px;
+}
+
+.picture-container hgroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-container .logo-header {
+    font-size: 6rem;
+    color: white;
+}
+
+.picture-container .logo {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
 }
 
 .picture-container img {
@@ -61,6 +84,12 @@
 
 figure.picture-container figcaption {
     position: absolute;
+    bottom: 20px;
+    color: white;
+
+    a {
+        color: inherit;
+    }
 }
 
 .logo-header {
