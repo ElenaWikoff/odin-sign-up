@@ -22,11 +22,13 @@
                     <h1 class="logo-header">Odin</h1>
                 </hgroup>
                 <!-- Cover Image -->
-                <img src="./assets/images/cover-image.jpg"
+                <img style="display: none;" src="./assets/images/cover-image.jpg"
                     alt="An autumn valley, snowy mountains to the left and background, a blue sky above.">
+                <!-- Image Attribution -->
                 <figcaption class="attribution">Photo by&nbsp;<a href="https://unsplash.com/@nate_dumlao"
                         target="_blank">Nathan Dumlao</a>&nbsp;on <a
-                        href="https://unsplash.com/photos/gray-concrete-mountain-during-daytime-Wm4vaMmHwS0" target="_blank">Unplash</a>
+                        href="https://unsplash.com/photos/gray-concrete-mountain-during-daytime-Wm4vaMmHwS0"
+                        target="_blank">Unplash</a>
                 </figcaption>
             </figure>
             <!-- Right/Bottom Container -->
@@ -60,17 +62,21 @@
                             <!-- Phone Number -->
                             <div class="input-group">
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" placeholder="800-555-5555" pattern="(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}" required>
+                                <input type="tel" id="phone" name="phone" placeholder="800-555-5555"
+                                    pattern="(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}" required>
                             </div>
                             <!-- Password -->
                             <div class="input-group">
                                 <label for="password">Password</label>
-                                <input type="password" id="password" name="password" minlength="8" maxlength="30" pattern="(?=.*[!@#$%^&*()])(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}" required>
+                                <input type="password" id="password" name="password" minlength="8" maxlength="30"
+                                    pattern="(?=.*[!@#$%^&*()])(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}" required>
                             </div>
                             <!-- Confirm Password -->
                             <div class="input-group">
                                 <label for="confirm_password">Confirm Password</label>
-                                <input type="password" id="confirm_password" name="confirm_password" minlength="8" maxlength="30" pattern="(?=.*[!@#$%^&*()])(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}" required>
+                                <input type="password" id="confirm_password" name="confirm_password" minlength="8"
+                                    maxlength="30" pattern="(?=.*[!@#$%^&*()])(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}"
+                                    required>
                             </div>
                         </div>
                     </form>
